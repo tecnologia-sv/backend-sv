@@ -10,6 +10,7 @@ const suppliersRoutes = require("./routes/suppliers.routes");
 
 const app = express();
 
+
 // Middlewares
 app.use(cors());
 app.set("pkg", pkg);

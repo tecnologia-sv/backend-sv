@@ -6,6 +6,7 @@ const sequelize = new Sequelize(devSQL.database, devSQL.user, devSQL.password, {
   host: devSQL.server,
 });
 
+
 const test = async () => {
   try {
     await sequelize.authenticate();
