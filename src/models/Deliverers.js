@@ -87,7 +87,7 @@ const Deliverers = db.define("Deliverers", {
   },
 
   documentImage: {
-    type: DataTypes.STRING(70),
+    type: Sequalize.STRING(70),
     allowNull: true,
     unique: true,
   },
@@ -110,7 +110,7 @@ const Deliverers = db.define("Deliverers", {
   },
 
   soatImage: {
-    type: DataTypes.STRING(70),
+    type: Sequalize.STRING(70),
     allowNull: true,
     unique: true,
   },
